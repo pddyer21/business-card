@@ -1,0 +1,30 @@
+body {
+    margin: 20px;
+	font-family: brush script MT garamond;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;                           /*allows horizontal allignment vs display: block which does vertical alignment*/
+	justify-content: space-around;
+	width: 400px; 
+	margin: 0px auto;
+	text-align: center;
+	background: #023047;
+	border-bottom: 8px solid #219ebc;
+	color:  #8ecae6;
+	font-weight: bolder;
+	border-radius: 20px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.avatar {
+	border-radius: 100%;
+}
